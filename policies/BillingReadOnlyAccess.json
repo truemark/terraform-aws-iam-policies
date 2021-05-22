@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowBillingReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "aws-portal:ViewAccount",
+        "aws-portal:ViewBilling",
+        "aws-portal:ViewUsage",
+        "cur:Describe*",
+        "ce:List*",
+        "ce:Describe*",
+        "ce:Get*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
