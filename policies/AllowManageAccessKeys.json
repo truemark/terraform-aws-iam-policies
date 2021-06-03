@@ -11,7 +11,7 @@
         "iam:DeleteAccessKey",
         "iam:UpdateAccessKey"
       ],
-      "Resource": "arn:aws:iam::*:user/${aws:username}"
+      "Resource": "*"
     }
   ]
 }
