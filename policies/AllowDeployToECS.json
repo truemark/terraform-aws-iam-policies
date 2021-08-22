@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowPushECR",
+      "Effect": "Allow",
+      "Action": [
+        "ecs:UpdateService",
+        "iam:PassRole",
+        "ecs:RegisterTaskDefinition",
+        "ecs:DescribeServices",
+        "ecs:ListTaskDefinitions",
+        "ecs:DescribeTaskDefinition"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
