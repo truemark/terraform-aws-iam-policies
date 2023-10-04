@@ -66,6 +66,8 @@
         "codestar:Get*",
         "codestar:List*",
         "codestar:Verify*",
+        "compute-optimizer:Describe*",
+        "compute-optimizer:Get*",
         "cognito-identity:Describe*",
         "cognito-identity:GetCredentialsForIdentity",
         "cognito-identity:GetIdentityPoolRoles",
