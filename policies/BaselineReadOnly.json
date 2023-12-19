@@ -15,6 +15,7 @@
         "application-autoscaling:Describe*",
         "appstream:Describe*",
         "appstream:List*",
+        "appsync:List*",
         "appsync:Get*",
         "appsync:GraphQL",
         "autoscaling-plans:Describe*",
