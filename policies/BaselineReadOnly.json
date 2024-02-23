@@ -37,6 +37,7 @@
         "cloudtrail:LookupEvents",
         "cloudwatch:Describe*",
         "cloudwatch:Get*",
+        "cloudwatch:GenerateQuery",
         "cloudwatch:List*",
         "codeartifact:Describe*",
         "codeartifact:List*",
