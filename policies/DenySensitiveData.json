@@ -1,0 +1,38 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "DenyReadExposedCredentials",
+			"Effect": "Deny",
+			"Action": [
+                "appsync:ListApiKeys",
+                "athena:GetSession",
+                "cassandra:Select",
+                "codeartifact:GetAuthorizationToken",
+                "cognito-identity:Get*",
+                "cognito-idp:DescribeUserPoolClient",
+                "cognito-idp:GetUserAttributeVerificationCode",
+                "connect:GetFederationToken",
+                "connect:ListSecurityKeys",
+                "ec2:GetPasswordData",
+                "ecr-public:GetAuthorizationToken",
+                "ecr:GetAuthorizationToken",
+                "lightsail:GetBucketAccessKeys",
+                "lightsail:GetKeyPair",
+                "lightsail:GetKeyPairs",
+                "snowball:GetJobUnlockCode",
+                "sso-directory:ListBearerTokens",
+                "sso-directory:SearchGroups",
+                "sso-directory:SearchUsers",
+                "storagegateway:DescribeChapCredentials",
+                "waf-regional:GetChangeToken",
+                "waf:GetChangeToken",
+                "secretsmanager:GetSecretValue",
+                "ssm:GetParameter*",
+                "sts:GetAccessKeyInfo",
+                "kms:Decrypt"
+            ],
+			"Resource": ["*"]
+		}
+	]
+}
