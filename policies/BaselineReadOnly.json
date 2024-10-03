@@ -181,6 +181,8 @@
         "networkmanager:Describe*",
         "networkmanager:Get*",
         "networkmanager:List*",
+        "notifications:List*",
+        "notifications:Get*",
         "opsworks-cm:Describe*",
         "opsworks-cm:List*",
         "opsworks:Describe*",
