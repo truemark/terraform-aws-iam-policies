@@ -133,6 +133,7 @@
         "fms:List*",
         "glacier:Describe*",
         "glacier:List*",
+        "glue:Get*",
         "glue:*Get*",
         "glue:List*",
         "glue:QuerySchemaVersionMetadata",
