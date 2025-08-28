@@ -219,6 +219,8 @@
         "rum:ListAppMonitors",
         "s3:DescribeJob",
         "s3:List*",
+        "s3tables:List*",
+        "s3vectors:List*",
         "sagemaker:Describe*",
         "sagemaker:GetSearchSuggestions",
         "sagemaker:List*",
