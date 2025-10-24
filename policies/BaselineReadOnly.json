@@ -13,6 +13,7 @@
         "acm-pca:Describe*",
         "apigateway:GET",
         "application-autoscaling:Describe*",
+        "application-signals:List*",
         "appstream:Describe*",
         "appstream:List*",
         "appsync:Get*",
